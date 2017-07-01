@@ -45,6 +45,13 @@ ol, ul {
   flex-direction: row;
 }
 
+
 .game-info {
+  flex-grow: 1;
   margin-left: 20px;
+}
+
+li.selected a {
+  background-color: aqua;
+  font-weight: bold;
 }
